@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 
 const TOKEN = process.env.BOT_TOKEN; // desde las variables de entorno
-const GAME_SHORT_NAME = 'shibooslots';
+const GAME_SHORT_NAME = 'shibooSlotsGame';
 const GAME_URL = 'https://dinorekkosgd.itch.io/shiboo-game-test'; // Cambia por tu URL real HTTPS
 
 const bot = new TelegramBot(TOKEN, { polling: true });
