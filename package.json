@@ -1,0 +1,13 @@
+{
+  "name": "shiboo-slots-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram Game Bot for Shiboo Slots",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
