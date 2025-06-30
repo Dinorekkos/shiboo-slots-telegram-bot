@@ -3,7 +3,7 @@ const express = require('express');
 
 const TOKEN = process.env.BOT_TOKEN; // desde las variables de entorno
 const GAME_SHORT_NAME = 'shibooSlotsGame';
-const GAME_URL = 'https://dinorekkosgd.itch.io/shiboo-game-test'; // Cambia por tu URL real HTTPS
+const GAME_URL = 'https://dev-shiboo-world.baboons.tech/game?id=shiboo-slots'; // Cambia por tu URL real HTTPS
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
